@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+}
+
+main {
+    height: 97.5vh;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    width: 327px;
+    height: 543px;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.img_container {
+    margin-top: 24px;
+    display: flex;
+}
+
+.view_icon {
+    position: absolute;
+    margin-left: 25px;
+    padding:  115px 115px;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%, 0.6);
+    opacity: 0;
+}
+
+.view_icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 278px;
+}
+
+.text {
+    margin: 24px 24px 0 25px;
+}
+
+.text h1  {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.text p {
+    margin-top: 14px;
+    color: hsl(215, 51%, 70%);
+    line-height: 24px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 26px 16px 26px;
+}
+
+.flex .eth {
+    display: flex;
+    width: 100px;
+    color: hsl(178, 100%, 50%);
+    font-size: 15.3px;
+    align-items: center;
+}
+
+.flex .eth img {
+    width: 12px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+.flex .days{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+    font-size: 15px;
+}
+
+.flex .days img {
+    margin-right: 6px;
+    width: 17px;
+    height: 17px;
+}
+
+hr {
+    width: 275px;
+    height: 1px;
+    margin: 0 auto;
+    color: hsl(215, 97%, 45%);
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 15px 25px;
+}
+
+.profile img {
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.profile p {
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15.5px;
+}
+
+.profile span {
+    color: white;
+}
+
+.profile span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 350px;
+        height: 596px;
+    }
+
+    .img_container .image {
+        width: 302px;
+    }
+    
+    .text {
+        margin-left: 24px;
+    }
+
+    .text p {
+        margin-top: 18px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .flex{
+        margin-top: 27px;
+        margin-bottom: 22px;
+    }
+
+    .flex .eth {
+        font-size: 16px;
+    }
+
+    .flex .days {
+        font-size: 16px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .profile {
+        margin-left: 24px;
+    }
+
+    .profile img {
+        width: 33px;
+    }
+
+    .profile p {
+        font-size: 16.5px;
+    }
+
+    .view_icon {
+        padding: 127px 126px;
+    }
+    
+}
+
+.attribution {
+    color: white;
+    
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
